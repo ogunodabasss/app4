@@ -1,0 +1,18 @@
+springdoc:
+  api-docs:
+    enabled: true
+    groups:
+      enabled: true
+    version: openapi-3-1
+  auto-tag-classes: true
+  enable-default-api-docs: true
+  enable-data-rest: true
+  enable-groovy: false
+  enable-hateoas: true
+  enable-javadoc: true
+  swagger-ui:
+    enabled: true
+    try-it-out-enabled: true
+    operations-sorter: method
+    tags-sorter: alpha
+    filter: true
